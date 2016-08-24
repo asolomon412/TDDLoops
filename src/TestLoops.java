@@ -2,14 +2,10 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-//import Loops;
+
 
 public class TestLoops {
 
-	// @Test
-	// public void test() {
-	// fail("Not yet implemented");
-	// }
 
 	@Test
 	public void testPrintHashPrintsOneHash() {
@@ -33,15 +29,16 @@ public class TestLoops {
 
 	@Test
 	public void testPrintShapeA() {
-		String result = Loops.makeShapeA( );
-		String testGoal ="#\n"
-				        +"##\n"
-				        +"###\n"
-		                +"####\n"
-						+"#####\n"
-						+"######\n"
-						+"#######\n"
-						+"########\n";
+		String result = Loops.makeShapeA();
+		String testGoal = 
+				"#\n" 
+				+ "##\n" 
+				+ "###\n" 
+				+ "####\n" 
+				+ "#####\n" 
+				+ "######\n" 
+				+ "#######\n" 
+				+ "########\n";
 		assertEquals(testGoal, result);
 	}
 
